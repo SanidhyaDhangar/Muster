@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Model binaries (fetched via backend/download_models.py)
+*.onnx
+*.caffemodel
+
+# Node / frontend
+node_modules/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db

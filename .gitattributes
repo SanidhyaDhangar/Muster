@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.onnx binary
+*.caffemodel binary
+*.png binary
+*.jpg binary
+*.xlsx binary

@@ -1,0 +1,13 @@
+{
+  "name": "muster",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "node scripts/backend.js",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm:backend\" \"npm:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
