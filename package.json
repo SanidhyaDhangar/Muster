@@ -2,6 +2,7 @@
   "name": "muster",
   "private": true,
   "version": "1.0.0",
+  "description": "Face-recognition attendance, run entirely on your own machine — FastAPI + React, local OpenCV vision, no paid APIs or cloud uploads.",
   "scripts": {
     "backend": "node scripts/backend.js",
     "frontend": "npm --prefix frontend run dev",
